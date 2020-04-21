@@ -1,0 +1,204 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Monserrat', sans-serif;
+}
+
+.header {
+	background-image: url(/public/img/capa-madmax2.jpg);
+	padding: 20px 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 -100px 100px #000;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 600;
+	color: white;
+}
+
+.navbar-title {
+	cursor: pointer;
+}
+
+.navbar-menu ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navbar-menu li {
+	padding: 0 50px 0 0;
+	justify-content: space-between;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.navbar-user {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-user img {
+	border-radius: 100%;
+	width: 18%;
+	cursor: pointer;
+}
+
+.navbar-user p {
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+.header h1 {
+	margin-top: 320px;
+	margin-bottom: 0;
+	padding: 0;
+	font-size: 70px;
+	color: white;
+	font-weight: 800;
+}
+
+.generos {
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: small;
+	color: white;
+}
+
+.generos ul {
+	padding: 0 5px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+}
+
+.generos li {
+	padding: 0 30px 0 0;
+}
+
+.button-assistir {
+	cursor: pointer;
+	color: black;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	border-radius: 25px 25px 25px 25px;
+	background-color: rgb(228, 187,35);
+}
+
+.button-assistir p {
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.info {
+	margin-top: 30px;
+	color: white;
+}
+
+.data {
+	color: rgb(228, 187,35);
+	opacity: 100%	;
+}
+
+.container {
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	vertical-align: center;
+}
+
+.menu-filmes {
+	margin: 0 10%;
+	padding: 0;
+	color: rgb(228, 187,35);
+	align-items: center;
+	border-bottom: solid lightgray 1px;
+}
+
+.menu-filmes ul {
+	padding: 10px 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.menu-filmes li {
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+	margin: 0 5px;
+}
+
+.cards {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	vertical-align: center;
+	justify-content: center;
+}
+
+.card {
+	margin: 1% 1% 1% 1%;
+	max-width: 20%;
+	box-shadow: 0px 0px 10px grey;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.card-header img{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-radius: 10px 10px 0px 0px;
+	cursor:pointer;
+}
+
+.card-body {
+	text-align: left;
+	padding: 0px 10px;
+	margin: 0;
+	font-size: 12px;
+}
+
+.card-body p {
+	color: rgb(228, 187,35);
+}
+
+.card-footer {
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.rodape {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 7%;
+}
+
+.media-icons i {
+	padding: 0 0 0 50px;
+}
